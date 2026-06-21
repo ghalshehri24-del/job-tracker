@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+
+# Local env (contains Supabase keys — never commit)
+.env
+.env.local
+.env.*.local
+
+# Local-machine launcher (hardcoded portable-Node paths)
+.claude/
